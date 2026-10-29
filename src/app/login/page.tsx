@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from 'react';
 import { createClient } from '@/lib/supabase';
 import { GlassCard, GlassInput, GlassButton } from '@/components/ui/GlassComponents';

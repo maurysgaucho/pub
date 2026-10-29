@@ -100,4 +100,4 @@ function WalletIcon(props: any) {
   return <div className="w-6 h-6 bg-gold rounded-full flex items-center justify-center text-white text-xs font-bold">K</div>;
 }
 
-import { ShoppingCart, Users, Wallet as WalletIcon } from 'lucide-react';
+import { ShoppingCart, Users, Wallet as WalletIconFromLucide } from 'lucide-react';

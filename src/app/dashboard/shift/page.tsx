@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState, useEffect } from 'react';
 import { Wallet, LogIn, LogOut, CheckCircle, AlertCircle, DollarSign } from 'lucide-react';
 import { GlassCard, GlassButton, GlassInput } from '@/components/ui/GlassComponents';

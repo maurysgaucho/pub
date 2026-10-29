@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState, useEffect } from 'react';
 import { Beer, Plus, Droplets, Gauge, History, Save } from 'lucide-react';
 import { GlassCard, GlassButton, GlassInput } from '@/components/ui/GlassComponents';

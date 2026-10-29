@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState, useEffect } from 'react';
 import { BarChart3, TrendingUp, ArrowDownCircle, Wallet, Package, Calendar } from 'lucide-react';
 import { GlassCard, GlassButton } from '@/components/ui/GlassComponents';
