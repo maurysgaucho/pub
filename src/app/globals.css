@@ -1,19 +1,6 @@
-@import "tailwindcss";
-
-@theme {
-  --color-background: #0B0D10;
-  --color-surface: #14181E;
-  --color-glass: rgba(255, 255, 255, 0.06);
-  --color-gold: #D6AD55;
-  --color-gold-foreground: #FFFFFF;
-  --color-amber: #F0A43A;
-  --color-amber-foreground: #FFFFFF;
-  --color-text-primary: #F7F7F7;
-  --color-text-secondary: #A7ADB7;
-  --color-success: #38B87C;
-  --color-warning: #F0B34C;
-  --color-error: #E45C5C;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #0B0D10;
@@ -29,7 +16,7 @@ body {
 
 @layer components {
   .glass-panel {
-    background: var(--color-glass);
+    background: rgba(255, 255, 255, 0.06);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -38,14 +25,14 @@ body {
   }
 
   .glass-button {
-    background: var(--color-glass);
+    background: rgba(255, 255, 255, 0.06);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     transition: all 0.2s ease;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
-    color: var(--color-text-primary);
+    color: #F7F7F7;
     cursor: pointer;
   }
 
@@ -55,8 +42,8 @@ body {
   }
 
   .gold-button {
-    background: var(--color-gold);
-    color: var(--color-gold-foreground);
+    background: #D6AD55;
+    color: #FFFFFF;
     transition: all 0.2s ease;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
@@ -66,7 +53,7 @@ body {
   }
 
   .gold-button:hover {
-    background: var(--color-amber);
+    background: #F0A43A;
     transform: translateY(-1px);
   }
 }
